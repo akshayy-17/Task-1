@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul {
+    overflow: auto;
+}
+
+.navbar {
+    background-color: #483939;
+    margin-top: -16px;
+}
+
+li {
+    float: left;
+    margin: 20px 12px;
+}
+
+li a {
+    padding: 4px 4px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+li a:hover {
+    color: gray;
+    transition: 0.8s;
+    font-size: 20px;
+}
+
+.search input {
+    float: right;
+    width: 150px;
+    height: 19px;
+    margin: 20px 40px 20px 20px;
+    border: 2px solid rgb(4, 4, 206);
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul img {
+    width: 28px;
+    height: 28px;
+    float: right;
+    margin: 21px -210px 2px 2px;
+}
+
+.bg {
+    position: relative;
+
+}
+
+.bg img {
+    margin-top: -16px;
+    opacity: 0.7;
+}
+
+.mainquote {
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    font-family: 'Inknut Antiqua', serif;
+    color: rgb(75 42 42);
+}
+
+.mainq {
+    position: absolute;
+    top: 28%;
+    left: 18%;
+    color: black;
+    font-size: 3rem;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+.lorem {
+    position: absolute;
+    top: 47%;
+    left: 18%;
+    color: rgb(75 42 42);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.btn {
+    position: absolute;
+    top: 60%;
+    left: 18%;
+    margin-top: 20px;
+}
+
+.servicebtn:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.8s;
+    font-size: 15px;
+    background-color: #5b4343;
+}
+
+.coursebtn:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.8s;
+    font-size: 15px;
+    background-color: #5b4343;
+}
+
+.servicebtn {
+    border: 2px solid double;
+    color: #070808;
+    border-radius: 12px;
+    width: 100%;
+    font-size: 1rem;
+    padding: 6px 10px;
+    cursor: pointer;
+    box-shadow: inset -5px -5px 19px 1px saddlebrown;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+}
+
+.coursebtn {
+    border: 2px solid double;
+    color: #070808;
+    border-radius: 12px;
+    width: 100%;
+    font-size: 1rem;
+    padding: 6px 10px;
+    cursor: pointer;
+    box-shadow: inset -5px -5px 19px 1px saddlebrown;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+}
+
+.black {
+    font-family: cursive;
+    padding-top: 10px;
+}
+
+.quote {
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    height: 250px;
+}
+
+body {
+    background-color: rgb(212, 158, 119);
+    margin: 0px;
+}
+
+.heart {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+
+.services {
+    height: 250px;
+}
+
+.ready {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-bottom: -30px;
+    margin-left: 50px;
+}
+
+.srvcprvdbox {
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.courses {
+    height: 250px;
+}
+
+.course {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-bottom: -30px;
+    margin-left: 50px;
+}
+
+.courscprvdbox {
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.srvcprvd {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+.courscprvd {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+.lorem2 {
+    font-family: math;
+
+}
+
+.lorem3 {
+    font-family: math;
+
+}
+
+footer {
+    text-align: center;
+
+}
